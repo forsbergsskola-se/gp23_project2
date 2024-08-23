@@ -3,6 +3,9 @@
 ## Premise
 In this assignment, students will collaborate in groups to develop a game using Unreal Engine 5. The genre of the game is entirely up to the students, allowing for creative freedom. However, there is a mandatory technical requirement: the implementation of AI using Unreal Engine’s Behavior Tree and Blackboard systems. The AI could be applied in various ways, such as creating enemy behaviors, NPC idle routines, or other AI-driven gameplay mechanics.
 
+This 4-week assignment marks the beginning of the course "Spelprojekt 2 och Portfoliogranskning" and serves as the foundational project. In the later stages of the course, students will continue building upon the skills and knowledge gained during this assignment, with a focus on expanding their portfolio and preparing for professional game development roles. This course is designed to simulate a real-world, industry-like environment, providing students with the opportunity to apply their theoretical knowledge in a practical setting through collaborative, project-based learning.
+
+
 ## Technical Requirement: AI Implementation
 Each project must include AI elements using Unreal Engine’s Behavior Tree and Blackboard systems. Here are a few examples of how AI can be implemented:
 
