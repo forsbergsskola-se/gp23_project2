@@ -57,7 +57,7 @@ Each group must create a **Working Agreement**. This document outlines the roles
 6. **Accountability**: Establish procedures for tracking progress.
 
 #### Submission
-The Working Agreement should be created by all team members and submitted at the project's start (first day). It can be updated as needed, with the agreement of the entire team.
+The Working Agreement should be created by all team members and submitted at the project's start (first day). It can be updated as needed, with the agreement of the entire team. Upon update, the Working Agreement needs to be resubmitted along with a statement on why the agreement changed.
 
 ### Weekly Milestones
 
