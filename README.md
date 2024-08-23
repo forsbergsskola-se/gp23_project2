@@ -48,6 +48,7 @@ Each group must create a **Working Agreement**. This document outlines the roles
 - **Facilitate Accountability**: Provide a framework for holding team members accountable.
 
 #### Components
+0. **Attendance**: The group members attending the meeting and those who are absent.
 1. **Team Roles**: Define roles and responsibilities.
 2. **Communication Plan**: Outline how the team will communicate.
 3. **Decision-Making**: Describe the process for making decisions.
