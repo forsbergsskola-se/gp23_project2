@@ -110,6 +110,17 @@ For each weekly milestone, the group is required to present a packaged version o
 - **Individual Deliverables**:
   - **Post Mortem**: A reflective report (at least 500 words, recommended 1000) detailing the student's contributions, successes, challenges, and learnings.
 
+#### Gameplay Length
+
+The game should be designed to offer a **vertical slice** experience, meaning it should showcase a polished, representative segment of the final game. The gameplay length should be approximately **5 minutes**, providing enough time to demonstrate the core mechanics, AI behaviors, and overall game flow. This duration allows the team to focus on delivering a high-quality, concise experience that highlights the key features of the game while remaining manageable within the project’s timeframe.
+
+Consider the following when designing the gameplay:
+- **Core Mechanics**: Ensure that the primary gameplay elements are clearly presented and easy to understand within the 5-minute window.
+- **Engagement**: The gameplay should be engaging and provide a clear sense of progression or challenge within the short duration.
+- **Replayability**: Although the main experience is 5 minutes, consider adding elements that encourage replayability, such as different outcomes or procedural variation on challenges.
+
+This approach allows for a focused development process and helps ensure that the final product is both polished and representative of the team's vision.
+
 #### File Size Considerations
 
 When preparing the game for each milestone, especially for the final release on itch.io, teams need to be mindful of the platform's file size limitations. Itch.io has a file size cap for uploads, which is typically 1 GB for free accounts. To ensure your game fits within this limit:
