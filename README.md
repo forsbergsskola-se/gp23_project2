@@ -259,23 +259,21 @@ All deliverables for the project must be organized according to the specified fo
 root/
 │
 ├── GameProject/
-│   ├── Source/                     # All source files for the game (C++/Blueprints)
 │   ├── Content/                    # Game assets like textures, models, sounds
 │   ├── Config/                     # Configuration files
-│   ├── Binaries/                   # Compiled binaries (optional to include)
 │   └── GameProject.uproject        # Unreal Engine project file
 │
 ├── Build/                          # Packaged builds of the game
-│   ├── Windows/                    # Windows build files
-│   │   ├── GameProject.exe         # The .exe file for the game
-│   │   ├── SupportingFiles/        # Any necessary supporting files for the executable
-│   │   └── Archive.zip             # The archived .zip file ready for upload to itch.io
-│
+│   ├── Archive.zip                 # The archived .zip file containing windows build files (package) ready for upload to itch.io
+│   │   ├── Engine/                 # Engine-specific binaries and resources
+│   │   ├── GameProject/            # Game-specific content and asset files
+│   │   └── GameProject.exe         # The .exe file for the game
+│   
 ├── Documentation/
 │   ├── README.md                   # Main documentation file describing the game
 │   ├── PostMortems/                # Folder containing individual post-mortem reports
-│   │   ├── StudentA_PostMortem.md  # Post-mortem report by Student A
-│   │   ├── StudentB_PostMortem.md  # Post-mortem report by Student B
+│   │   ├── StudentA_PostMortem.pdf # Post-mortem report by Student A
+│   │   ├── StudentB_PostMortem.pdf # Post-mortem report by Student B
 │   │   └── ...                     # Additional post-mortem reports
 │   ├── WorkingAgreement.md         # Document outlining team roles, responsibilities, and expectations
 │   ├── SprintRetrospectives/       # Documentation of weekly sprint retrospectives
@@ -292,10 +290,7 @@ root/
 │   │       └── Screenshot2.png
 │   └── AI_Design_Doc.md            # Optional: Document detailing AI design and implementation
 │
-└── Tools/                          # Any tools or scripts used during development
-    ├── Scripts/                    # Useful scripts (e.g., build automation, asset management)
-    ├── DebugTools/                 # Tools used for debugging or optimization
-    └── References/                 # Any additional reference materials or libraries used in the project
+└── References/                 # Any additional reference materials or libraries used in the project
 ```
 
 ## Course Structure
