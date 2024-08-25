@@ -87,6 +87,40 @@ For each weekly milestone, the group is required to present a packaged version o
 - **Week 4: Release**
   - **Deliverable**: The final version of the game, packaged in "Shipping Mode," ready for distribution. This version should be fully polished, including all final features and content. The game must be archived in a .zip file and prepared for release on itch.io.
 
+### Post-Mortem
+
+At the end of the project, each student is required to submit an individual **Post-Mortem** report. This report is a reflective document that analyzes the student’s experiences and contributions throughout the project. The purpose of the Post-Mortem is to encourage students to critically evaluate their work, identify areas for improvement, and document lessons learned that can be applied to future projects.
+
+#### Contents of the Post-Mortem
+
+1. **Introduction**:
+   - Provide an overview of the project, including the game concept, your role within the team, and the primary objectives of the project.
+
+2. **Successes**:
+   - Discuss the aspects of the project that went well. Highlight any significant achievements, both individually and as a team, and explain why these were successful.
+   - Include specific examples of challenges that were effectively overcome and how they contributed to the project’s success.
+
+3. **Challenges**:
+   - Identify the challenges you encountered during the project. These could be technical issues, team dynamics, time management, or other obstacles.
+   - Explain how these challenges were addressed, whether or not the solutions were effective, and what could have been done differently.
+
+4. **Reflections**:
+   - Reflect on your personal growth throughout the project. Discuss what you learned, both in terms of technical skills and soft skills (e.g., communication, collaboration).
+   - Consider how this experience will influence your approach to future projects.
+
+5. **Daily Journal**:
+   - Include a daily journal that details your contributions and activities each day. This should at least capture the key points discussed during the daily scrum, including what you worked on the previous day, your plans for the current day, and any blockers you encountered.
+   - The journal should reflect your ongoing progress and engagement with the project, as well as any adjustments made in response to challenges.
+
+6. **Conclusion**:
+   - Summarize the key takeaways from the project. Highlight the most important lessons learned and how you plan to apply them in your future work.
+
+#### Length and Format
+
+- **Length**: The report should be a minimum of 500 words, with a recommendation of around 1000 words for a thorough reflection.
+- **Format**: The Post-Mortem should be well-organized, professionally written, and suitable for inclusion in your portfolio as evidence of your ability to reflect critically on your work.
+
+The Post-Mortem is an essential part of your assessment and provides a valuable opportunity to demonstrate your capacity for self-evaluation and continuous improvement.
 
 ## Deliverables
 
