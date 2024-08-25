@@ -5,15 +5,6 @@ In this assignment, students will collaborate in groups to develop a game using 
 
 This 4-week assignment marks the beginning of the course "Spelprojekt 2 och Portfoliogranskning" and serves as the foundational project. In the later stages of the course, students will continue building upon the skills and knowledge gained during this assignment, with a focus on expanding their portfolio and preparing for professional game development roles. This course is designed to simulate a real-world, industry-like environment, providing students with the opportunity to apply their theoretical knowledge in a practical setting through collaborative, project-based learning.
 
-
-## Technical Requirement: AI Implementation
-Each project must include AI elements using Unreal Engine’s Behavior Tree and Blackboard systems. Here are a few examples of how AI can be implemented:
-
-- **Enemy AI**: Create several enemy types with varying behaviors, such as patrolling, attacking, and defending.
-- **NPC Routines**: Develop NPCs with idle walking routines, interaction triggers, or reaction systems.
-- **Companion AI**: Implement a companion character that follows and assists the player, adapting to different scenarios.
-- **Boss AI**: Design a complex AI for a boss character that changes tactics based on the player's actions.
-
 ## Course Goals and Learning Outcomes
 ### Knowledge:
 - Understand and apply the workflows of a game project, from concept to final release.
@@ -36,13 +27,95 @@ Each project must include AI elements using Unreal Engine’s Behavior Tree and 
 - Demonstrate the ability to work within a game production using a state-of-the-art game engine (AA- and AAA-level games), delivering a polished vertical slice that showcases core gameplay and AI mechanics.
 - Analyze and articulate individual contributions and learnings through a comprehensive post-mortem report, including a reflective daily journal.
 
-
 ## Project Structure
 ### Group Formation
 - **Group Size**: 4 students per group.
 - **Collaboration**: Each group is responsible for conceptualizing, planning, developing, and presenting a fully functional game project.
 - **Agile Methodology**: Groups will implement agile practices such as sprint planning and daily standups. Game reviews will be held every Friday with the mentor to assess progress and make necessary adjustments.
 
+### Weekly Milestones
+
+| Week | Milestone                          | Objective                                                                                                                                                           |
+|------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1    | **Core Gameplay Loop**             | Develop and present the core gameplay loop. By the end of Week 1, each team should have a basic, functional version of the core gameplay loop. Present on Friday.   |
+| 2    | **Expansion and Refinement**       | Expand and refine the gameplay loop. Add new mechanics, refine existing ones, and integrate more complex AI behaviors. Present the expanded gameplay on Friday.    |
+| 3    | **Polish**                         | Focus on polishing the game, including fixing bugs, improving performance, and fine-tuning AI. Present the polished version during the Friday review session.       |
+| 4    | **Release**                        | Finalize and release the game. Package the game as an .exe, archive in a .zip file, and upload to itch.io. Present the final game to a jury via Discord on Friday. |
+| 5    | **Post-Mortem**                    | Submit the individual Post-Mortem report. This should include reflections on the project, a daily journal, and an analysis of successes and challenges.            |
+
+### Milestone Deliverables
+
+For each weekly milestone, the group is required to present a packaged version of their game. The game should be packaged in **"Shipping Mode"** to ensure optimal performance and to simulate a final release environment. This will allow the team to test and showcase the game in a near-final state at each stage of development.
+
+#### **Weekly Milestone Deliverables**:
+
+- **Week 1: Core Gameplay Loop**
+  - **Deliverable**: A packaged version of the game in "Shipping Mode" that demonstrates the core gameplay loop. This version should highlight the basic mechanics and provide a clear foundation for further development.
+
+- **Week 2: Expansion and Refinement**
+  - **Deliverable**: An updated and packaged version of the game in "Shipping Mode" that includes expanded and refined gameplay elements. This version should build upon the core loop, integrating additional mechanics and AI behaviors.
+
+- **Week 3: Polish**
+  - **Deliverable**: A polished version of the game packaged in "Shipping Mode." This version should focus on bug fixes, performance improvements, and overall refinement to ensure a smooth and polished gameplay experience.
+  - **Additional Deliverable**: Present an outline for the final presentation. This outline should include key points that will be covered during the presentation to the jury, such as an overview of the game, highlights of the development process, and any significant achievements or challenges.
+
+- **Week 4: Release**
+  - **Deliverable**: The final version of the game, packaged in "Shipping Mode," ready for distribution. This version should be fully polished, including all final features and content. The game must be archived in a .zip file and prepared for release on itch.io.
+  - **Final Presentation**: The team will present the final game to a jury via Discord on the last day of the course.
+
+- **Week 5: Post-Mortem**
+  - **Deliverable**: Submit the individual Post-Mortem report. This report should include a reflective analysis of the project, a detailed daily journal, and an examination of successes and challenges faced during development.
+
+## Deliverables
+
+- **Group Deliverables**:
+  - **Functional Game Prototype**: A complete and playable game that incorporates the required AI elements.
+  - **PC Build (.exe)**: The game must be packaged into an executable (.exe) file.
+  - **Archiving**: The packaged game must be archived into a .zip file (recommended: 7-zip).
+  - **Distribution via itch.io**: The archived game must be uploaded to itch.io. The latest release date is on the last date of the course at 09:00 am. Recommendation is therefore to upload the day before.
+  - **README.md**: A document detailing the game concept, mechanics, AI implementation, and other relevant information.
+- **Presentation of the game including Screenshots/Video**: Visual presentation of the game, highlighting key features and gameplay. On the jury day (last day of the course), each group will present their game in front of a jury joining via Discord.
+  - **Working Agreement**: A document outlining the roles, responsibilities, and expectations for each group member.
+
+- **Weekly Sprint Retro Documentation**:
+  - **Problems Analyzed**: A list of issues encountered during the sprint.
+  - **Actions for Next Sprint**: A list of steps to be taken in the upcoming sprint to address any issues or challenges.
+  - **Weekly Routines**:
+    - **Monday Sprint Retrospective and Planning**: Every Monday before noon, the team will gather to conduct a sprint retrospective on the previous week's sprint, analyzing what went well, what could be improved, and identifying any problems. This session will also include planning for the upcoming week, setting goals, and determining tasks for each team member.
+    - **Daily Scrum**: Each day, the team must conduct a daily scrum meeting, with each student present. During the daily scrum, each member will briefly discuss what they worked on yesterday, what they plan to work on today, and any blockers or challenges they are facing.
+    - **Friday Weekly Review with Kevin**: Every Friday, the team will have a weekly review meeting with Kevin. During this session, the team will present their progress, receive feedback, and brainstorm potential tasks and improvements for the following week.
+
+- **Individual Deliverables**:
+  - **Post Mortem**: A reflective report (at least 500 words, recommended 1000) detailing the student's contributions, successes, challenges, and learnings.
+
+## Technical Requirement: AI Implementation
+Each project must include AI elements using Unreal Engine’s Behavior Tree and Blackboard systems. Here are a few examples of how AI can be implemented:
+
+- **Enemy AI**: Create several enemy types with varying behaviors, such as patrolling, attacking, and defending.
+- **NPC Routines**: Develop NPCs with idle walking routines, interaction triggers, or reaction systems.
+- **Companion AI**: Implement a companion character that follows and assists the player, adapting to different scenarios.
+- **Boss AI**: Design a complex AI for a boss character that changes tactics based on the player's actions.
+
+### Gameplay Length
+
+The game should be designed to offer a **vertical slice** experience, meaning it should showcase a polished, representative segment of the final game. The gameplay length should be approximately **5 minutes**, providing enough time to demonstrate the core mechanics, AI behaviors, and overall game flow. This duration allows the team to focus on delivering a high-quality, concise experience that highlights the key features of the game while remaining manageable within the project’s timeframe.
+
+Consider the following when designing the gameplay:
+- **Core Mechanics**: Ensure that the primary gameplay elements are clearly presented and easy to understand within the 5-minute window.
+- **Engagement**: The gameplay should be engaging and provide a clear sense of progression or challenge within the short duration.
+- **Replayability**: Although the main experience is 5 minutes, consider adding elements that encourage replayability, such as different outcomes or procedural variation on challenges.
+
+This approach allows for a focused development process and helps ensure that the final product is both polished and representative of the team's vision.
+
+### File Size
+
+When preparing the game for each milestone, especially for the final release on itch.io, teams need to be mindful of the platform's file size limitations. Itch.io has a file size cap for uploads, which is typically 1 GB for free accounts. To ensure your game fits within this limit:
+
+- **Optimize Assets**: Use appropriate compression techniques for textures, audio, and video files to minimize file size without sacrificing quality.
+- **Reduce Unnecessary Content**: Remove any unused or placeholder assets from the build to avoid bloating the file size.
+- **Test Archive Sizes**: Regularly check the size of your .zip archives to ensure they remain under the 1 GB limit. If your file size exceeds this cap, consider further optimizations or splitting content.
+
+##Non-software Deliverables
 ### Working Agreement
 
 Each group must create a **Working Agreement**. This document outlines the roles, responsibilities, and expectations for team members. It guides how the team will collaborate and ensures clear communication.
@@ -65,33 +138,55 @@ Each group must create a **Working Agreement**. This document outlines the roles
 #### Submission
 The Working Agreement should be created by all team members and submitted at the project's start (first day). It can be updated as needed, with the agreement of the entire team. Upon update, the Working Agreement needs to be resubmitted along with a statement on why the agreement changed.
 
-### Weekly Milestones
+### Presentation
 
-| Week | Milestone                          | Objective                                                                                                                                                           |
-|------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1    | **Core Gameplay Loop**             | Develop and present the core gameplay loop. By the end of Week 1, each team should have a basic, functional version of the core gameplay loop. Present on Friday.   |
-| 2    | **Expansion and Refinement**       | Expand and refine the gameplay loop. Add new mechanics, refine existing ones, and integrate more complex AI behaviors. Present the expanded gameplay on Friday.    |
-| 3    | **Polish**                         | Focus on polishing the game, including fixing bugs, improving performance, and fine-tuning AI. Present the polished version during the Friday review session.       |
-| 4    | **Release**                        | Finalize and release the game. Package the game as an .exe, archive in a .zip file, and upload to itch.io. Present the final game to a jury via Discord on Friday. |
+The final presentation is a critical component of the course, where each team will showcase their completed game to a jury. This presentation will take place on the last day of the course and will be conducted on-site at Forsbergs Skola, with the jury joining via Discord.
 
-### Milestone Deliverables
+#### Presentation Structure
 
-For each weekly milestone, the group is required to present a packaged version of their game. The game should be packaged in **"Shipping Mode"** to ensure optimal performance and to simulate a final release environment. This will allow the team to test and showcase the game in a near-final state at each stage of development.
+1. **Introduction**:
+   - Begin with a brief introduction of your team and the game you have developed. Mention the genre, core concept, and any unique features or mechanics that set your game apart.
 
-#### **Weekly Milestone Deliverables**:
+2. **Gameplay Demonstration**:
+   - Provide a live demonstration of your game, walking the jury through the key gameplay elements. Highlight the core gameplay loop, AI behaviors, and any expanded or refined features implemented during the project.
+   - Ensure that the gameplay is shown in its final, polished state, reflecting the work completed during the final milestone (Week 4).
 
-- **Week 1: Core Gameplay Loop**
-  - **Deliverable**: A packaged version of the game in "Shipping Mode" that demonstrates the core gameplay loop. This version should highlight the basic mechanics and provide a clear foundation for further development.
+3. **Development Process**:
+   - Discuss the development process, including how the team managed the project using agile methodologies (e.g., sprint planning, daily scrums).
+   - Highlight any significant challenges encountered during the development process and how they were overcome.
+   - Mention the tools and technologies used, such as Unreal Engine’s Behavior Tree and Blackboard systems for AI implementation.
 
-- **Week 2: Expansion and Refinement**
-  - **Deliverable**: An updated and packaged version of the game in "Shipping Mode" that includes expanded and refined gameplay elements. This version should build upon the core loop, integrating additional mechanics and AI behaviors.
+4. **Milestones and Achievements**:
+   - Review the milestones achieved throughout the project. Discuss how the team met or exceeded the objectives for each week.
+   - Emphasize any particular achievements, such as creative problem-solving, successful collaboration, or meeting tight deadlines.
 
-- **Week 3: Polish**
-  - **Deliverable**: A polished version of the game packaged in "Shipping Mode." This version should focus on bug fixes, performance improvements, and overall refinement to ensure a smooth and polished gameplay experience.
-  - **Additional Deliverable**: Present an outline for the final presentation. This outline should include key points that will be covered during the presentation to the jury, such as an overview of the game, highlights of the development process, and any significant achievements or challenges.
+5. **Conclusion and Reflection**:
+   - Conclude the presentation by reflecting on the overall experience. What did the team learn? How did the project contribute to your understanding of game development?
+   - Provide a brief overview of the next steps, including the submission of individual Post-Mortem reports.
 
-- **Week 4: Release**
-  - **Deliverable**: The final version of the game, packaged in "Shipping Mode," ready for distribution. This version should be fully polished, including all final features and content. The game must be archived in a .zip file and prepared for release on itch.io.
+#### Presentation Deliverables
+
+During the presentation, the following deliverables must be prepared and shown:
+
+- **Final Game Build**:
+  - The final version of the game, packaged in "Shipping Mode," should be demonstrated live during the presentation.
+  - The game must be polished, functional, and representative of the team’s efforts throughout the project.
+
+- **Documentation**:
+  - Provide a brief overview of the key documents related to the project, including the README.md file and any additional documentation such as AI design notes or gameplay mechanics breakdowns.
+
+- **Media Assets**:
+  - Showcase any screenshots, videos, or other media assets that highlight key features or moments in the game. These assets should be included in the final submission package and referenced during the presentation.
+
+- **Outline and Key Points**:
+  - Prepare and follow the presentation outline developed during Week 3. This outline should guide the flow of the presentation, ensuring that all critical aspects of the project are covered effectively.
+
+#### Jury Interaction
+
+- After the presentation, the jury will have the opportunity to ask questions and provide feedback. Be prepared to discuss any aspect of the project, including technical details, design decisions, and the overall development process.
+- The jury’s feedback will be a valuable part of the learning experience, offering insights into how your work is perceived by industry professionals.
+
+The presentation is not just a showcase of your final product, but also a demonstration of your team’s ability to work together, solve problems, and deliver a polished game on time.
 
 ### Post-Mortem
 
@@ -127,49 +222,6 @@ At the end of the project, each student is required to submit an individual **Po
 - **Format**: The Post-Mortem should be well-organized, professionally written, and suitable for inclusion in your portfolio as evidence of your ability to reflect critically on your work.
 
 The Post-Mortem is an essential part of your assessment and provides a valuable opportunity to demonstrate your capacity for self-evaluation and continuous improvement.
-
-## Deliverables
-
-- **Group Deliverables**:
-  - **Functional Game Prototype**: A complete and playable game that incorporates the required AI elements.
-  - **PC Build (.exe)**: The game must be packaged into an executable (.exe) file.
-  - **Archiving**: The packaged game must be archived into a .zip file (recommended: 7-zip).
-  - **Distribution via itch.io**: The archived game must be uploaded to itch.io. The latest release date is on the last date of the course at 09:00 am. Recommendation is therefore to upload the day before.
-  - **README.md**: A document detailing the game concept, mechanics, AI implementation, and other relevant information.
-- **Presentation of the game including Screenshots/Video**: Visual presentation of the game, highlighting key features and gameplay. On the jury day (last day of the course), each group will present their game in front of a jury joining via Discord.
-  - **Working Agreement**: A document outlining the roles, responsibilities, and expectations for each group member.
-
-- **Weekly Sprint Retro Documentation**:
-  - **Problems Analyzed**: A list of issues encountered during the sprint.
-  - **Actions for Next Sprint**: A list of steps to be taken in the upcoming sprint to address any issues or challenges.
-  - **Weekly Routines**:
-    - **Monday Sprint Retrospective and Planning**: Every Monday before noon, the team will gather to conduct a sprint retrospective on the previous week's sprint, analyzing what went well, what could be improved, and identifying any problems. This session will also include planning for the upcoming week, setting goals, and determining tasks for each team member.
-    - **Daily Scrum**: Each day, the team must conduct a daily scrum meeting, with each student present. During the daily scrum, each member will briefly discuss what they worked on yesterday, what they plan to work on today, and any blockers or challenges they are facing.
-    - **Friday Weekly Review with Kevin**: Every Friday, the team will have a weekly review meeting with Kevin. During this session, the team will present their progress, receive feedback, and brainstorm potential tasks and improvements for the following week.
-
-- **Individual Deliverables**:
-  - **Post Mortem**: A reflective report (at least 500 words, recommended 1000) detailing the student's contributions, successes, challenges, and learnings.
-
-#### Gameplay Length
-
-The game should be designed to offer a **vertical slice** experience, meaning it should showcase a polished, representative segment of the final game. The gameplay length should be approximately **5 minutes**, providing enough time to demonstrate the core mechanics, AI behaviors, and overall game flow. This duration allows the team to focus on delivering a high-quality, concise experience that highlights the key features of the game while remaining manageable within the project’s timeframe.
-
-Consider the following when designing the gameplay:
-- **Core Mechanics**: Ensure that the primary gameplay elements are clearly presented and easy to understand within the 5-minute window.
-- **Engagement**: The gameplay should be engaging and provide a clear sense of progression or challenge within the short duration.
-- **Replayability**: Although the main experience is 5 minutes, consider adding elements that encourage replayability, such as different outcomes or procedural variation on challenges.
-
-This approach allows for a focused development process and helps ensure that the final product is both polished and representative of the team's vision.
-
-#### File Size Considerations
-
-When preparing the game for each milestone, especially for the final release on itch.io, teams need to be mindful of the platform's file size limitations. Itch.io has a file size cap for uploads, which is typically 1 GB for free accounts. To ensure your game fits within this limit:
-
-- **Optimize Assets**: Use appropriate compression techniques for textures, audio, and video files to minimize file size without sacrificing quality.
-- **Reduce Unnecessary Content**: Remove any unused or placeholder assets from the build to avoid bloating the file size.
-- **Test Archive Sizes**: Regularly check the size of your .zip archives to ensure they remain under the 1 GB limit. If your file size exceeds this cap, consider further optimizations or splitting content.
-
-By managing your file size effectively, you can avoid issues during the final upload to itch.io and ensure a smooth distribution process.
 
 ## Course Structure
 
