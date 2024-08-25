@@ -91,7 +91,8 @@ For each weekly milestone, the group is required to present a packaged version o
 - **Post Mortem**: A reflective report (at least 500 words, recommended 1000) detailing the student's contributions, successes, challenges, and learnings throughout the project. The report should include:
   - **Daily Journal**: A detailed journal documenting the student’s daily contributions and activities, including what was discussed during the daily scrum meetings.
 
-## Technical Requirement: AI Implementation
+## Technical Requirements
+### Main Requirement: AI Implementation
 Each project must include AI elements using Unreal Engine’s Behavior Tree and Blackboard systems. Here are a few examples of how AI can be implemented:
 
 - **Enemy AI**: Create several enemy types with varying behaviors, such as patrolling, attacking, and defending.
@@ -118,7 +119,7 @@ When preparing the game for each milestone, especially for the final release on 
 - **Reduce Unnecessary Content**: Remove any unused or placeholder assets from the build to avoid bloating the file size.
 - **Test Archive Sizes**: Regularly check the size of your .zip archives to ensure they remain under the 1 GB limit. If your file size exceeds this cap, consider further optimizations or splitting content.
 
-##Non-software Deliverables
+## Non-software Deliverables
 ### Working Agreement
 
 Each group must create a **Working Agreement**. This document outlines the roles, responsibilities, and expectations for team members. It guides how the team will collaborate and ensures clear communication.
@@ -148,11 +149,14 @@ The final presentation is a critical component of the course, where each team wi
 #### Presentation Structure
 
 1. **Introduction**:
-   - Begin with a brief introduction of your team and the game you have developed. Mention the genre, core concept, and any unique features or mechanics that set your game apart.
+   - Begin by showing the game trailer
+   - Presentation begins: Provide a brief introduction of your team and the game you have developed. Mention the genre, core concept, and any unique features or mechanics that is important for the game (or might set your game apart).
 
-2. **Gameplay Demonstration**:
-   - Provide a live demonstration of your game, walking the jury through the key gameplay elements. Highlight the core gameplay loop, AI behaviors, and any expanded or refined features implemented during the project.
+2. **Gameplay Testing**:
+   - The Jury will play your game in order to identify key gameplay elements, experience the core gameplay loop, AI behaviors.
    - Ensure that the gameplay is shown in its final, polished state, reflecting the work completed during the final milestone (Week 4).
+   - During this part, the team is to remain silent and only commenting on gameplay when a direct question is being asked to the team.
+   - When the gameplay testing is deemed satisfactory by the Jury, we move on to the next step.
 
 3. **Development Process**:
    - Discuss the development process, including how the team managed the project using agile methodologies (e.g., sprint planning, daily scrums).
@@ -175,8 +179,8 @@ During the presentation, the following deliverables must be prepared and shown:
   - The final version of the game, packaged in "Shipping Mode," should be demonstrated live during the presentation.
   - The game must be polished, functional, and representative of the team’s efforts throughout the project.
 
-- **Documentation**:
-  - Provide a brief overview of the key documents related to the project, including the README.md file and any additional documentation such as AI design notes or gameplay mechanics breakdowns.
+- **Presentation**:
+  - Provide a presentation of the game, with slices that are to be presented after the gameplay testing, where a brief overview of the key documents related to the project is presented, including the README.md file and any additional documentation such as AI design notes or gameplay mechanics breakdowns.
 
 - **Media Assets**:
   - Showcase any screenshots, videos, or other media assets that highlight key features or moments in the game. These assets should be included in the final submission package and referenced during the presentation.
