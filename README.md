@@ -299,7 +299,6 @@ The grading will reflect the team’s success in meeting the course objectives, 
     - **Week 3**: Polished version presented.
     - **Week 4**: Finalized game released on time via itch.io.
   - **On-Time Release**: The game must be uploaded to itch.io and set to release on the last day of the course at 9:00 AM, as scheduled.
-  - **Professional Presentation**: The group must present the final game to the jury that will be on Discord. The presentation will be on-site (Forsbergs Skola) and needs to showcase a well-rounded and polished product, including all necessary documentation and media (screenshots/videos).
 
 #### 2. Work Process
 
@@ -314,7 +313,20 @@ The grading will reflect the team’s success in meeting the course objectives, 
   - **Effective Collaboration**: The team must show strong collaboration and communication, with each member contributing meaningfully to the project's success.
   - **Adaptability**: The team must demonstrate adaptability, efficiently handling any unexpected challenges or changes in project scope.
 
-#### 3. Individual Post-Mortem Document
+#### 3. Presentation
+
+- **Godkänt (Pass)**
+  - **Basic Presentation**: The group must deliver a clear and concise presentation of their game to the jury. This includes showcasing the core gameplay loop, demonstrating the AI implementation, and discussing the overall development process.
+  - **Screenshots/Video**: The group should provide visual documentation of the game, highlighting key features and gameplay moments during the presentation.
+  - **Jury Interaction**: The group must be able to answer questions from the jury and provide thoughtful insights into the development process.
+
+- **Väl Godkänt (Distinction)**
+  - **Professional Presentation**: The group must deliver a well-organized, professional presentation that effectively communicates the project's scope, achievements, and challenges. The presentation should be polished, engaging, and demonstrate the group’s ability to articulate their work.
+  - **Comprehensive Demonstration**: The presentation should include a comprehensive live demonstration of the final game, showcasing not only the core gameplay loop and AI implementation but also any additional features or polish added during the project.
+  - **Detailed Visuals**: The group should provide high-quality screenshots, video clips, or other media that effectively showcase the game’s key features, visual design, and gameplay dynamics.
+  - **In-Depth Jury Interaction**: The group must engage with the jury in a meaningful way, providing in-depth answers to questions and reflecting on their development process and outcomes. The team should demonstrate a thorough understanding of their work and the decisions made throughout the project.
+
+#### 4. Individual Post-Mortem Document
 
 - **Godkänt (Pass)**
   - **Reflective Analysis**: The post-mortem report must include a reflective analysis of the group work, discussing successes, challenges, and lessons learned during the project.
@@ -326,5 +338,6 @@ The grading will reflect the team’s success in meeting the course objectives, 
   - **Insightful Learnings**: The report should go beyond describing events and include insightful learnings that demonstrate a deep understanding of the project’s dynamics and the student’s role within the team.
   - **Professional Presentation**: The report should be well-organized, professionally written, and suitable for inclusion in the student’s portfolio as a demonstration of their ability to reflect on and learn from their experiences.
   - **Length**: The report should be at least 1000 words, offering a comprehensive evaluation of the student’s contributions and learnings.
+
 
 
