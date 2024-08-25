@@ -68,15 +68,13 @@ For each weekly milestone, the group is required to present a packaged version o
 
 ## Deliverables
 
-- **Group Deliverables**:
-  - **Functional Game Prototype**: A complete and playable game that incorporates the required AI elements.
-  - **PC Build (.exe)**: The game must be packaged into an executable (.exe) file.
-  - **Archiving**: The packaged game must be archived into a .zip file (recommended: 7-zip).
-  - **Distribution via itch.io**: The archived game must be uploaded to itch.io. The latest release date is on the last date of the course at 09:00 am. Recommendation is therefore to upload the day before.
-  - **README.md**: A document detailing the game concept, mechanics, AI implementation, and other relevant information.
-- **Presentation of the game including Screenshots/Video**: Visual presentation of the game, highlighting key features and gameplay. On the jury day (last day of the course), each group will present their game in front of a jury joining via Discord.
-  - **Working Agreement**: A document outlining the roles, responsibilities, and expectations for each group member.
-
+### Group Deliverables:
+- **Functional Game Prototype**: A complete and playable game that incorporates the required AI elements.
+- **PC Build (.exe)**: The game must be packaged into an executable (.exe) file.
+- **Archiving**: The packaged game must be archived into a .zip file (recommended: 7-zip).
+- **Distribution via itch.io**: The archived game must be uploaded to itch.io. The latest release date is on the last day of the course at 09:00 AM. It is recommended to upload the day before to avoid any last-minute issues.
+- **README.md**: A document detailing the game concept, mechanics, AI implementation, and other relevant information.
+- **Working Agreement**: A document outlining the roles, responsibilities, and expectations for each group member, created at the beginning of the project.
 - **Weekly Sprint Retro Documentation**:
   - **Problems Analyzed**: A list of issues encountered during the sprint.
   - **Actions for Next Sprint**: A list of steps to be taken in the upcoming sprint to address any issues or challenges.
@@ -84,9 +82,14 @@ For each weekly milestone, the group is required to present a packaged version o
     - **Monday Sprint Retrospective and Planning**: Every Monday before noon, the team will gather to conduct a sprint retrospective on the previous week's sprint, analyzing what went well, what could be improved, and identifying any problems. This session will also include planning for the upcoming week, setting goals, and determining tasks for each team member.
     - **Daily Scrum**: Each day, the team must conduct a daily scrum meeting, with each student present. During the daily scrum, each member will briefly discuss what they worked on yesterday, what they plan to work on today, and any blockers or challenges they are facing.
     - **Friday Weekly Review with Kevin**: Every Friday, the team will have a weekly review meeting with Kevin. During this session, the team will present their progress, receive feedback, and brainstorm potential tasks and improvements for the following week.
+- **Presentation of the Game**:
+  - **Visual Presentation**: Include screenshots and videos that highlight key features and gameplay. These should be prepared for the final presentation.
+  - **Live Demonstration**: On the jury day (last day of the course), each group will present their game live in front of a jury joining via Discord. This will take place on-site at Forsbergs Skola.
+  - **Presentation Outline**: The team should follow the outline prepared during Week 3 to ensure all critical aspects of the project are covered effectively during the presentation.
 
-- **Individual Deliverables**:
-  - **Post Mortem**: A reflective report (at least 500 words, recommended 1000) detailing the student's contributions, successes, challenges, and learnings.
+### Individual Deliverables:
+- **Post Mortem**: A reflective report (at least 500 words, recommended 1000) detailing the student's contributions, successes, challenges, and learnings throughout the project. The report should include:
+  - **Daily Journal**: A detailed journal documenting the student’s daily contributions and activities, including what was discussed during the daily scrum meetings.
 
 ## Technical Requirement: AI Implementation
 Each project must include AI elements using Unreal Engine’s Behavior Tree and Blackboard systems. Here are a few examples of how AI can be implemented:
