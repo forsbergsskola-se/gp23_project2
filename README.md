@@ -246,10 +246,15 @@ This approach is designed to simulate a real-world game development environment,
 This assignment constitutes the project component of the course. Assessment will be based on three key areas: the group’s project deliverables, their working methods throughout the course, and the individual post-mortem reports.
 
 - **Group Assignment**: The primary focus of the assessment is on the group project, where each team will be evaluated on their ability to plan, develop, and deliver a complete game according to the outlined milestones and technical requirements.
-- **Working Methods**: The group’s progress and adherence to effective working methods will be assessed during weekly reviews. This includes how well the team collaborates, manages their time, and adapts to challenges throughout the project.
-- **Final Presentation**: The course culminates in a final presentation where each group will showcase their game to a jury. This presentation is a critical component of the assessment, allowing students to demonstrate their project outcomes and receive feedback on their work.
 
-The grading will reflect the team’s success in meeting the course objectives, including the quality of the final game, the effectiveness of their working methods, and the insights shared in the post-mortem.
+- **Working Methods**: The group’s progress and adherence to effective working methods will be assessed during weekly reviews. This includes how well the team collaborates, manages their time, and adapts to challenges throughout the project. Consistent participation in daily scrums, sprint retrospectives, and planning sessions will also be evaluated.
+
+- **Final Presentation**: The course culminates in a final presentation where each group will showcase their game to a jury. This presentation is a critical component of the assessment, allowing students to demonstrate their project outcomes, the quality of their work, and their ability to communicate their development process effectively.
+
+- **Individual Post-Mortem**: Each student will submit a post-mortem report as an individual deliverable. This report is a reflective document that should provide a comprehensive analysis of the student's contributions, the successes and challenges encountered during the project, and the lessons learned. The post-mortem should also include a daily journal, detailing the student’s participation and progress throughout the project. The post-mortem is crucial in assessing the student’s ability to critically evaluate their own work, recognize areas for improvement, and document their personal growth over the course of the project.
+
+The grading will reflect the team’s success in meeting the course objectives, including the quality of the final game, the effectiveness of their working methods, the thoroughness of their final presentation, and the depth of reflection demonstrated in the individual post-mortem reports.
+
 
 ## Grading
 
