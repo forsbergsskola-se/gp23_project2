@@ -16,20 +16,26 @@ Each project must include AI elements using Unreal Engine’s Behavior Tree and 
 
 ## Course Goals and Learning Outcomes
 ### Knowledge:
-- Understand and apply the workflows of a game project.
-- Recognize resource and time constraints within a game project.
-- Collaborate with other individuals within a game project.
-- Apply agile methodologies in game development.
-- Present a game demo effectively in a portfolio.
+- Understand and apply the workflows of a game project, from concept to final release.
+- Recognize and navigate resource and time constraints within a game project.
+- Collaborate with other team members effectively within a game project.
+- Apply agile methodologies, including sprint planning, daily scrums, and retrospectives, in game development.
+- Implement AI systems using Unreal Engine’s Behavior Tree and Blackboard systems.
+- Present a game demo effectively in a portfolio and during a professional jury presentation.
 
 ### Skills:
-- Write efficient and functional code for a game project in Unreal Engine.
-- Collaborate effectively with others.
+- Write efficient and functional code for a game project in Unreal Engine, with a focus on AI implementation.
+- Collaborate effectively within a team, contributing meaningfully to the planning, development, and refinement of the game.
+- Package and distribute a game for public release, including file size management and platform-specific requirements.
+- Conduct thorough playtesting, debugging, and optimization to ensure a polished final product.
+- Maintain a daily journal documenting individual contributions, challenges, and progress throughout the project.
 
 ### Competencies:
-- Work collaboratively with other disciplines to plan and execute a game project according to a given brief.
-- Reflect on the role and responsibilities of a Game Programmer within a project team.
-- Demonstrate the ability to work within game a production using state of the art game engine (AA- and AAA-level games)
+- Work collaboratively with other disciplines to plan and execute a game project according to a given brief and within a structured agile framework.
+- Reflect on the role and responsibilities of a Game Programmer within a project team, with specific attention to AI implementation and project management.
+- Demonstrate the ability to work within a game production using a state-of-the-art game engine (AA- and AAA-level games), delivering a polished vertical slice that showcases core gameplay and AI mechanics.
+- Analyze and articulate individual contributions and learnings through a comprehensive post-mortem report, including a reflective daily journal.
+
 
 ## Project Structure
 ### Group Formation
