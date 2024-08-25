@@ -99,6 +99,25 @@ Each project must include AI elements using Unreal Engine’s Behavior Tree and 
 - **NPC Routines**: Develop NPCs with idle walking routines, interaction triggers, or reaction systems.
 - **Companion AI**: Implement a companion character that follows and assists the player, adapting to different scenarios.
 - **Boss AI**: Design a complex AI for a boss character that changes tactics based on the player's actions.
+  
+### Git Version Control
+Proper use of Git for version control is mandatory for this project. Given the nature of Unreal Engine's Blueprints, which are stored as binary files, the following practices must be adhered to:
+
+- **Repository Management**: All project files must be version-controlled using Git, with regular commits and updates pushed to the shared repository.
+- **Daily Commits**: Students are required to commit their work daily to ensure that progress is tracked and that any potential issues are identified early. This practice also helps maintain a consistent backup of the project.
+- **Rebasing over Merging**: To avoid the complications that arise from merging binary files (such as Blueprints), students are required to use rebasing instead of merging when integrating changes. This approach helps maintain a cleaner and more manageable project history.
+- **Feature Branch Management**:
+  - **Minimize Time in Feature Branches**: While feature branches can be useful, students should avoid staying in them for too long. Long-lived feature branches increase the risk of complex merge conflicts that can be difficult to resolve, especially with binary files.
+  - **Frequent Integration**: Regularly integrate changes from the main branch into the feature branch and rebase onto the main branch frequently. This practice reduces the likelihood of conflicts and ensures that the feature branch stays up to date with the latest project changes.
+  - **Avoid Feature Branches If Unsure**: If students are unsure about how to manage a feature branch or anticipate challenges with merging, they should avoid using feature branches altogether and work directly in the main branch, with careful coordination among team members.
+
+### Packaging and Distribution
+- **Executable File**: The final game must be packaged into an executable (.exe) file.
+- **Archiving**: The packaged game must be archived into a .zip file (recommended: 7-zip).
+- **Distribution via itch.io**: The archived game must be uploaded to itch.io by the deadline, with the release scheduled for the last day of the course.
+
+### Documentation
+All required documentation, including the README.md, post-mortem reports, sprint retrospectives, and final presentation materials, must be included in the Git repository under the appropriate folder structure.
 
 ### Gameplay Length
 
@@ -229,6 +248,55 @@ At the end of the project, each student is required to submit an individual **Po
 - **Format**: The Post-Mortem should be well-organized, professionally written, and suitable for inclusion in your portfolio as evidence of your ability to reflect critically on your work.
 
 The Post-Mortem is an essential part of your assessment and provides a valuable opportunity to demonstrate your capacity for self-evaluation and continuous improvement.
+
+### Folder Structure and Upload Instructions
+
+All deliverables for the project must be organized according to the specified folder structure and uploaded to your group’s Git repository. This structure is designed to ensure that all necessary files are clearly organized and accessible for review.
+
+#### Folder Structure
+
+```plaintext
+root/
+│
+├── GameProject/
+│   ├── Source/                     # All source files for the game (C++/Blueprints)
+│   ├── Content/                    # Game assets like textures, models, sounds
+│   ├── Config/                     # Configuration files
+│   ├── Binaries/                   # Compiled binaries (optional to include)
+│   └── GameProject.uproject        # Unreal Engine project file
+│
+├── Build/                          # Packaged builds of the game
+│   ├── Windows/                    # Windows build files
+│   │   ├── GameProject.exe         # The .exe file for the game
+│   │   ├── SupportingFiles/        # Any necessary supporting files for the executable
+│   │   └── Archive.zip             # The archived .zip file ready for upload to itch.io
+│
+├── Documentation/
+│   ├── README.md                   # Main documentation file describing the game
+│   ├── PostMortems/                # Folder containing individual post-mortem reports
+│   │   ├── StudentA_PostMortem.md  # Post-mortem report by Student A
+│   │   ├── StudentB_PostMortem.md  # Post-mortem report by Student B
+│   │   └── ...                     # Additional post-mortem reports
+│   ├── WorkingAgreement.md         # Document outlining team roles, responsibilities, and expectations
+│   ├── SprintRetrospectives/       # Documentation of weekly sprint retrospectives
+│   │   ├── Sprint1.md              # Retrospective for Sprint 1
+│   │   ├── Sprint2.md              # Retrospective for Sprint 2
+│   │   ├── Sprint3.md              # Retrospective for Sprint 3
+│   │   ├── Sprint4.md              # Retrospective for Sprint 4
+│   │   └── ...                     # Additional retrospectives if needed
+│   ├── Presentation/               # All files related to the final presentation
+│   │   ├── Slides.pptx             # PowerPoint or PDF slides for the presentation
+│   │   ├── DemoVideo.mp4           # A video of the gameplay demo (optional)
+│   │   └── Media/                  # Screenshots and additional media files used in the presentation
+│   │       ├── Screenshot1.png
+│   │       └── Screenshot2.png
+│   └── AI_Design_Doc.md            # Optional: Document detailing AI design and implementation
+│
+└── Tools/                          # Any tools or scripts used during development
+    ├── Scripts/                    # Useful scripts (e.g., build automation, asset management)
+    ├── DebugTools/                 # Tools used for debugging or optimization
+    └── References/                 # Any additional reference materials or libraries used in the project
+```
 
 ## Course Structure
 
