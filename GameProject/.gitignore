@@ -16,6 +16,14 @@
 *.dylib
 *.dll
 
+# Exclude ignoring binary files in the root
+!Binaries/*
+!Plugins/*/Binaries/*
+
+# Ensure .dll files in Binaries and Plugins/Binaries are not ignored
+!Binaries/**/*.dll
+!Plugins/*/Binaries/**/*.dll
+
 # Fortran module files
 *.mod
 
@@ -47,7 +55,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/**/Binaries/*
+Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -68,7 +76,8 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/**/Intermediate/*
+Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+.DS_Store
